@@ -1,0 +1,24 @@
+{
+  "name": "chuxin-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "keywords": [
+    "hooks",
+    "chuxin-hooks"
+  ],
+  "author": "云层上的光|初心",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild-wasm": "latest",
+    "vitepress": "^1.0.0-alpha.31"
+  },
+  "overrides": {
+    "esbuild": "npm:esbuild-wasm@latest"
+  }
+}
