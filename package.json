@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "基于Vue 3.0 的hooks util",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "rollup -c",
     "docs:dev": "vitepress dev docs --port 8080",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
@@ -16,9 +18,15 @@
   "license": "ISC",
   "devDependencies": {
     "esbuild-wasm": "latest",
+    "rollup": "^3.7.4",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.4",
     "vitepress": "^1.0.0-alpha.31"
   },
   "overrides": {
     "esbuild": "npm:esbuild-wasm@latest"
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
   }
 }

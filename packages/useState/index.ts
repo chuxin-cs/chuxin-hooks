@@ -1,5 +1,3 @@
-import {ref} from 'vue';
-
-export function useState(initialState) {
+export function useState(initialState: any) {
 
 }
